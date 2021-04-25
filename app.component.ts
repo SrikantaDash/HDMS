@@ -46,7 +46,8 @@ export class AppComponent  {
       debugger;
       alert(JSON.stringify(data));
       this.dataSource=data;
-    })  
+    });  
+    let x=9;
   }
    
   AddStudent()
